@@ -122,3 +122,65 @@ input {
 ::-webkit-input-placeholder {
   text-align: center;
 }
+
+
+/* BOX AREA */
+
+.service-container {
+    margin: 157px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 24px;
+}
+
+.food {
+    width: 360px;
+    height: 352px;
+    left: 157px;
+    top: 1595.5px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.family {
+    width: 360px;
+    height: 352px;
+    left: 157px;
+    top: 1595.5px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.education {
+    width: 360px;
+    height: 352px;
+    left: 157px;
+    top: 1595.5px;
+    background: #f6e58d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.skills:hover{
+    box-shadow: 0px 9px 52px rgba(0, 0, 0, 0.2);
+}
+
+.skill-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+
+}
+
+.skills img {
+    margin-bottom: 31.73px;
+}
+
+.skill-descripiton {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
