@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.donate-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+span{
+    color: #f9ca24;
+}
+.text{
+    position: absolute;
+    text-align: center;
+    
+}
+p{
+    padding: 30px;
+}
+.donate-area img{
+    
+    background-repeat: no-repeat;
+    width: 1536px;
+    height: 709px;
+}
+
+.header-title{
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.p-description{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.primary-btn{
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    gap: 8px;
+    border: none;
+}
+
+.donate-title{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    
+    color: #121212;
+    
+}
+
+.p-description1{
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+.btn-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.tkbtn{
+    width: 136px;
+    height: 123px;
+    left: 495px;
+    top: 979px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    background: #FFEEEE;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+
+.tkbtn:hover{
+    background-color: rgba(red, green, blue, alpha);
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.input-amount{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: 1px solid #DADADA;
+    width: 765px; 
+  }
+
+  .donate-now{
+    text-align: center;
+    margin-top: 30px;
+  }
+
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
